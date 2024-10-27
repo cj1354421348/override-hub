@@ -144,12 +144,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-    url: https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-    path: ./ruleset/OpenAi.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   ProxyMedia:
     url: https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
     path: ./ruleset/ProxyMedia.list
